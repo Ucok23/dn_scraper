@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]  # Build-time dependencies (including wheel for creating .whl files)
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dn_scraper" 
+version = "0.1.0"
+description = "A Python library for scraping news from Detik.com" 
+authors = [{name = "Ucok23", email = "ulubis98@gmail.com"}] 
+license = {file = "LICENSE"}
+readme = "README.md"  # Path to your README file
+classifiers = [  # Helps people find your library on PyPI
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",  # Choose your license
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP :: Web Scraping", # Add relevant classifiers
+]
+keywords = ["detik", "news", "scraping", "web scraping"]  # Add relevant keywords
+dependencies = [  # Runtime dependencies
+    "requests", 
+    "beautifulsoup4",
+]
+
+[tool.setuptools]
+# Usually, nothing needs to be here.  Setuptools auto-discovers packages.
+
+[tool.black]  # Example: Configuration for the black formatter (optional)
+line-length = 88
+
+[tool.flake8]  # Example: Configuration for flake8 linter (optional)
+max-line-length = 88
+exclude = ["docs", "build", "dist", ".venv"] # Exclude some directories
+
+# If you use pytest:
+[tool.pytest.ini_options]
+testpaths = ["tests"] # Where your tests are
