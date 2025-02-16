@@ -1,7 +1,0 @@
-README.md
-setup.py
-src/dn_scraper.egg-info/PKG-INFO
-src/dn_scraper.egg-info/SOURCES.txt
-src/dn_scraper.egg-info/dependency_links.txt
-src/dn_scraper.egg-info/requires.txt
-src/dn_scraper.egg-info/top_level.txt
