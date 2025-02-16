@@ -13,7 +13,7 @@ classifiers = [  # Helps people find your library on PyPI
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",  # Choose your license
     "Operating System :: OS Independent",
-    "Topic :: Internet :: WWW/HTTP :: Web Scraping", # Add relevant classifiers
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search", # Add relevant classifiers
 ]
 keywords = ["detik", "news", "scraping", "web scraping"]  # Add relevant keywords
 dependencies = [  # Runtime dependencies
