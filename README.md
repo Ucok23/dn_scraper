@@ -4,7 +4,7 @@ A python library for scraping news articles from detik.com.
 
 ## Installation
 ```
-pip install dn_scraper
+pip install dn-scraper
 ```
 
 ## Usage
